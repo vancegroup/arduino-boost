@@ -33,6 +33,6 @@ Once you've got the libraries in your sketchbook, it's time to use them!  In ord
 ## Details and Limitations
 This repository started out with just the `boost/` and `libs/` subdirectories (plus the license file) of a Boost release. The dummy header was added, but the goal is to not make any more modifications to Boost: if there's a bug elsewhere (StandardCplusplus, Arduino's tools) handle it there instead. Otherwise this becomes less of a "quick modification" to Boost and more of a fork, which isn't good for maintainability.
 
-Only the "header-only" libraries are available right now: the `libs` source code is there but probably not useful (and probably destined to be removed). Thus, you can't (but wouldn't want to) use `boost::filesystem`, but `boost::mpl` should work fine.
+Only the "header-only" libraries are available (along with the header-only parts of the compiled-optional libraries). Thus, you can't (but wouldn't want to) use `boost::filesystem`, but `boost::mpl` should work fine. Most files related to them have been removed, but there may be a few stragglers.
 
 This arose as a "scratch an itch" project: if you can contribute (probably to improving StandardCplusplus so some previously-untested piece of Boost works), please do: fork and send pull requests.
