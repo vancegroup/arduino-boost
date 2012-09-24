@@ -76,6 +76,10 @@
 #elif defined(__VMS) 
 // VMS:
 #  define BOOST_PLATFORM_CONFIG "boost/config/platform/vms.hpp" 
+
+#elif defined(__AVR__)
+// AVR embedded:
+#  define BOOST_PLATFORM_CONFIG "boost/config/platform/avr.hpp"
 #else
 
 #  if defined(unix) \
