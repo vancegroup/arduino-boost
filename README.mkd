@@ -1,6 +1,17 @@
 # Boost for Arduino
 <https://github.com/vancegroup/arduino-boost>
 
+## Project Status
+
+This was worthwhile and worked when I last used it.
+However, I have moved on, no longer use this,
+and have no capacity to meaningfully maintain it.
+
+**Unmaintained**
+
+
+## Intro
+
 Yep, this is the world-famous [Boost][] set of C++ libraries brought to everybody's favorite hobbyist-friendly microcontroller development system (for some definition of "everybody"), the Arduino. If you've been itching to go beyond C-style code without re-inventing the wheel (or in this case, the C++ standard libraries and STL, Loki, and Boost), this is what you're looking for.
 
 This depends on [StandardCplusplus][], a port of uClibc++ to Arduino, to provide the C++ standard libraries.
